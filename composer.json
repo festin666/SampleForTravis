@@ -1,0 +1,15 @@
+{
+  "name": "Festin666/SampleForTravis",
+  "description": "Sample project to check Travis CI",
+  "minimum-stability": "stable",
+  "license": "public",
+  "authors": [
+    {
+      "name": "Alexander Grigoriev",
+      "email": "mr.festin@yandex.ru"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "5.7.5"
+  }
+}
