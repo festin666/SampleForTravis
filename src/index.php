@@ -1,12 +1,12 @@
 <?php
-echo "Let's test Travis-CI!";
+namespace Festin666\TravisCiTest;
 
 class Super {
     private $pictureId;
 
-    public function __construct($pictureid)
+    public function __construct($id)
     {
-        $this->pictureId = $pictureid;
+        $this->pictureId = $id;
     }
 
     public function getPictureId() {
