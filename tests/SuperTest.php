@@ -16,7 +16,7 @@ class SuperTest extends \PHPUnit_Framework_TestCase
 
     public function testFirst()
     {
-        $p = new Super(0);
+        $p = new Super(1);
         $this->assertInstanceOf(Super::class, $p);
     }
 }
