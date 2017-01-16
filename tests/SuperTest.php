@@ -6,10 +6,10 @@
  * Time: 18:28
  */
 
-namespace Festin666\TravisCiTest\test;
+namespace Festin666\TravisCiTest\tests;
+
 use Festin666\TravisCiTest\Super;
 
-require "../index.php";
 
 class SuperTest extends \PHPUnit_Framework_TestCase
 {
