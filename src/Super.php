@@ -13,6 +13,9 @@ class Super {
 
     public function __construct($id)
     {
+        if ($id == 0) {
+            throw new \Exception("do not like zero!!");
+        }
         $this->pictureId = $id;
     }
 
